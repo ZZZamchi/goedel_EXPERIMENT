@@ -1,0 +1,1477 @@
+{
+  "pass_at_k": 91.80327868852459,
+  "total_problems": 244,
+  "passed_problems": 224,
+  "total_samples": 7808,
+  "passed_samples": 4883,
+  "sample_pass_rate": 62.53842213114754,
+  "sample_counts": {
+    "32": 244
+  },
+  "problem_stats": [
+    {
+      "problem_id": "induction_12dvd4expnp1p20",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2009_p7",
+      "passed_samples": 14,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_11div10tonmn1ton",
+      "passed_samples": 26,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_237",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2020_p10",
+      "passed_samples": 8,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_239",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_apbmpcneq0_aeq0anbeq0anceq0",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "amc12a_2021_p12",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p25",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_188",
+      "passed_samples": 23,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_419",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_756",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_76",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_329",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_435",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_3",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_233",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_353",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_447",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_amgm_sumasqdivbgeqsuma",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_137",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1981_p6",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_289",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_cubrtrp1oncubrtreq3_rcubp1onrcubeq5778",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_sum1onsqrt2to1onsqrt10000lt198",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_numbertheory_235",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_amgm_sum1toneqn_prod1tonleq1",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_342",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_392",
+      "passed_samples": 25,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2020_p13",
+      "passed_samples": 25,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_pord1p1on2powklt5on2",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_17",
+      "passed_samples": 13,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+      "passed_samples": 25,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_85",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p3",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_254",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_711",
+      "passed_samples": 26,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_4x3m7y3neq2003",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2020_p22",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1977_p6",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_numbertheory_299",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_1124",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1962_p2",
+      "passed_samples": 15,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p9",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1989_p8",
+      "passed_samples": 26,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_345",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_129",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_764",
+      "passed_samples": 4,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_517",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_328",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1992_p1",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_400",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_bleqa_apbon2msqrtableqambsqon8b",
+      "passed_samples": 11,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imosl_2007_algebra_p6",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_66",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_313",
+      "passed_samples": 17,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_abpbcpcageq3_sumaonsqrtapbgeq3onsqrt2",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_160",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_176",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_141",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_sqineq_at2malt1",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_209",
+      "passed_samples": 18,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_513",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_332",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_143",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2021_p13",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_346",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_484",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_765",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2002_p6",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_prod1p1onk3le3m1onn",
+      "passed_samples": 9,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2008_p25",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_354",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_412",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_541",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_452",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_388",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_1pxpownlt1pnx",
+      "passed_samples": 23,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1991_p9",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_314",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_158",
+      "passed_samples": 18,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_100",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2002_p2",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_304",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1965_p2",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_numbertheory_229",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_12",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_270",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_185",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_208",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_478",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_234",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_427",
+      "passed_samples": 20,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_aoddbdiv4asqpbsqmod8eq1",
+      "passed_samples": 23,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_2pownm1prime_nprime",
+      "passed_samples": 11,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2003_p23",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_sqineq_unitcircatbpamblt1",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2002_p7",
+      "passed_samples": 21,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_441",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_338",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_618",
+      "passed_samples": 14,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2009_p6",
+      "passed_samples": 18,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2021_p3",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1997_p5",
+      "passed_samples": 10,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2021_p9",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1964_p2",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1983_p6",
+      "passed_samples": 23,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1983_p3",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2002_p13",
+      "passed_samples": 10,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1983_p1",
+      "passed_samples": 16,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_212",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2020_p15",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_359",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1988_p8",
+      "passed_samples": 8,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2020_p7",
+      "passed_samples": 25,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1990_p4",
+      "passed_samples": 18,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_80",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_207",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_320",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_246",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p8",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+      "passed_samples": 19,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_215",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2020_p21",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1983_p2",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_275",
+      "passed_samples": 8,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_5",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_exk2powkeqapb2mulbpa2_aeq1",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_numbertheory_296",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_559",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_44",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_156",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2002_p19",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2021_p18",
+      "passed_samples": 4,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_135",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_numbertheory_728",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_459",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_others_exirrpowirrrat",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_153",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2020_p25",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_302",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_440",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1984_p6",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_170",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_99",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_196",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_175",
+      "passed_samples": 25,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_9onxpypzleqsum2onxpy",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1969_p2",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p22",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12_2000_p1",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1990_p15",
+      "passed_samples": 19,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1959_p1",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_342",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_171",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_769",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_343",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_296",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2021_p1",
+      "passed_samples": 7,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2020_p9",
+      "passed_samples": 4,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_495",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_127",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_293",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_451",
+      "passed_samples": 5,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2020_p6",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1985_p6",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_139",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_24",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12_2000_p6",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2003_p5",
+      "passed_samples": 20,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_457",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_148",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_398",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p18",
+      "passed_samples": 26,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_227",
+      "passed_samples": 5,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_114",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_2019_p1",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "imo_1960_p2",
+      "passed_samples": 17,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_483",
+      "passed_samples": 22,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_321",
+      "passed_samples": 12,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_pprime_pdvdapowpma",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_113",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2020_p2",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2013_p4",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_247",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_33",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_293",
+      "passed_samples": 26,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_430",
+      "passed_samples": 20,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_314",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p14",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_427",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_x5neqy2p4",
+      "passed_samples": 24,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_341",
+      "passed_samples": 17,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_432",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1982_p1",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_ineq_nto1onlt2m1on",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_598",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2021_p19",
+      "passed_samples": 2,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12a_2019_p12",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_150",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12_2000_p12",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_107",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2002_p4",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "numbertheory_fxeq4powxp6powxp9powx_f2powmdvdf2pown",
+      "passed_samples": 5,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_sumkexp3eqsumksq",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_apbon2pownleqapownpbpowon2",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_276",
+      "passed_samples": 15,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1963_p5",
+      "passed_samples": 15,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1984_p1",
+      "passed_samples": 13,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_277",
+      "passed_samples": 26,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_582",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_notequiv2i2jasqbsqdiv8",
+      "passed_samples": 21,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_263",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1984_p7",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1997_p9",
+      "passed_samples": 15,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_34",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_125",
+      "passed_samples": 30,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1968_p5_1",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_184",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_222",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_551",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_521",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_numbertheory_552",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "algebra_sqineq_unitcircatbpabsamblt1",
+      "passed_samples": 32,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12_2001_p5",
+      "passed_samples": 12,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "induction_nfactltnexpnm1ngt3",
+      "passed_samples": 3,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12b_2021_p4",
+      "passed_samples": 27,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "imo_1974_p3",
+      "passed_samples": 1,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "numbertheory_3pow2pownm1mod2pownp3eq2pownp2",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "mathd_algebra_288",
+      "passed_samples": 28,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_362",
+      "passed_samples": 13,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_487",
+      "passed_samples": 29,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12_2001_p21",
+      "passed_samples": 6,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1999_p11",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "aime_1994_p3",
+      "passed_samples": 15,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_142",
+      "passed_samples": 31,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "aime_1987_p5",
+      "passed_samples": 5,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "amc12_2000_p20",
+      "passed_samples": 19,
+      "total_samples": 32,
+      "passed": true
+    },
+    {
+      "problem_id": "mathd_algebra_320",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "aime_1995_p7",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "imo_2001_p6",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    },
+    {
+      "problem_id": "amc12a_2020_p4",
+      "passed_samples": 0,
+      "total_samples": 32,
+      "passed": false
+    }
+  ]
+}

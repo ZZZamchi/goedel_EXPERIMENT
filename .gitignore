@@ -16,13 +16,15 @@ progress_check.log
 auto_check.log
 putnambench_run.log
 
-# Results (keep structure but ignore large files and logs)
+# Results - only exclude logs and temporary files
 results/run_*/inference.log
 results/run_*/compile.log
 results/run_*/summary.log
 results/test_*/
 results/run_*/compile.pid
 results/run_*/inference.pid
+results/run_*/lean_files/
+results/run_*/summary_*/
 
 # Temporary files
 *.bak
@@ -53,10 +55,4 @@ model_8B/
 !goedelv2.yml
 !lake-manifest.json
 !dataset/*.jsonl
-
-# Results directory (too large, keep structure only)
-results/run_*/*.json
-results/run_*/*.log
-results/run_*/*.pid
-results/run_*/lean_files/
-results/run_*/summary_*/
+!results/run_*/*.json
