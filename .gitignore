@@ -50,7 +50,7 @@ model_8B/
 *.olean
 *.ilean
 
-# Large data files (keep structure)
+# Large data files - exclude all JSON except specific ones
 *.json
 !goedelv2.yml
 !lake-manifest.json
