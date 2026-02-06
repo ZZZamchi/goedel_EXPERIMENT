@@ -321,24 +321,32 @@ class DeepSeekCoTHandler(InferenceHandler):
         pass 
 
     def extrac_code(self, inputs):
-        import_head = "import Mathlib\nimport Aesop\n\nset_option maxHeartbeats 0\n\nopen BigOperators Real Nat Topology Rat\n\n"       
         pattern = r'```lean4\n(.*?)\n```'
         matches = re.findall(pattern, inputs, re.DOTALL)
         if matches:
-            return import_head + matches[-1]
+            return matches[-1]
         pattern = r'```lean4\n(.*?)```'
         matches = re.findall(pattern, inputs, re.DOTALL)
         if matches:
-            return import_head + matches[-1]
+            return matches[-1]
         pattern = r'```lean\n(.*?)```'
         matches = re.findall(pattern, inputs, re.DOTALL)
         if matches:
-            return import_head + matches[-1]
+            return matches[-1]
         return "None"
 
+    
+
+
+
+
+
+
+
+
     def prover_inference(self, lean4_code, tokenizer):
-        formal_statement = lean4_code.split(":= by")[0] + ":= by sorry" # include sorry https://huggingface.co/deepseek-ai/DeepSeek-Prover-V2-7B
-        prompt = F"Complete the following Lean 4 code:\n\n```lean4\n{formal_statement}```\n\nBefore producing the Lean 4 code to formally prove the given theorem, provide a detailed proof plan outlining the main proof steps and strategies.\nThe plan should highlight key ideas, intermediate lemmas, and proof structures that will guide the construction of the final formal proof."
+        formal_statement = lean4_code.split(":= by")[0] + ":= by sorry"
+        prompt = f"Complete the following Lean 4 code:\n\n```lean4\n{formal_statement}```\n\nBefore producing the Lean 4 code to formally prove the given theorem, provide a detailed proof plan outlining the main proof steps and strategies.\nThe plan should highlight key ideas, intermediate lemmas, and proof structures that will guide the construction of the final formal proof."
         messages = [
             {"role": "user", "content": prompt}
         ]
@@ -348,35 +356,10 @@ class DeepSeekCoTHandler(InferenceHandler):
             add_generation_prompt=True
         )
         return text, messages
-    
-    def problem_check(self,statement, full_code):
-        full_code = replace_statement_in_proof(statement, full_code)        
+
+    def problem_check(self, statement, full_code):
+        full_code = replace_statement_in_proof(statement, full_code)
         return full_code
-
-    def generate_correction_prompt(self, lean4_code_original_stmt,
-                                   history_messages_from_prev_round,
-                                   prev_round_llm_raw_output,
-                                   error_message_for_prev_round,
-                                   tokenizer, current_correction_round_num):
-        original_stmt_for_prompt = lean4_code_original_stmt.split(":= by")[0] + ":= by sorry"
-
-        current_messages = list(history_messages_from_prev_round)
-
-        # Add PREVIOUS assistant's (failed) attempt
-        assistant_content = prev_round_llm_raw_output
-        current_messages.append({"role": "assistant", "content": assistant_content})
-
-        # Add CURRENT user feedback and request for new attempt
-        user_feedback_content = (
-            f"The proof (Round {current_correction_round_num - 1}) is not correct. Following is the compilation error message, where we use <error></error> to signal the position of the error.\n\n{error_message_for_prev_round}"
-            "\n\nBefore producing the Lean 4 code to formally prove the given theorem, provide a detailed analysis of the error message."
-        )
-        current_messages.append({"role": "user", "content": user_feedback_content})
-
-        prompt_str = tokenizer.apply_chat_template(current_messages, tokenize=False, add_generation_prompt=True)
-        return prompt_str, current_messages
-
-
 class DeepSeekNonCoTHandler(InferenceHandler):
     def __init__(self):
         pass 
@@ -494,5 +477,3 @@ theorem to_proof_theorem_hh **this is the wrong condition** := by
 
     # Split into blocks
     print(replace_statement_in_proof(statement_string, proof_string))
-
-

@@ -1,8 +1,62 @@
-collect.py
-output.txt
-*.pyc
+# Python
 __pycache__/
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Logs and PID files
 *.log
-results/
+*.pid
+pipeline_run.log
+progress_check.log
+auto_check.log
+putnambench_run.log
+
+# Results (keep structure but ignore large files and logs)
+results/run_*/inference.log
+results/run_*/compile.log
+results/run_*/summary.log
+results/test_*/
+results/run_*/compile.pid
+results/run_*/inference.pid
+
+# Temporary files
+*.bak
+*.old
+*.tmp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (too large for git)
+model_8B/
+
+# Lean build artifacts
+.lake/
+*.olean
+*.ilean
+
+# Large data files (keep structure)
+*.json
+!goedelv2.yml
+!lake-manifest.json
+!dataset/*.jsonl
+
+# Results directory (too large, keep structure only)
+results/run_*/*.json
+results/run_*/*.log
+results/run_*/*.pid
+results/run_*/lean_files/
+results/run_*/summary_*/

@@ -1,3 +1,8 @@
+"""
+推理脚本：使用大语言模型生成Lean 4证明代码
+
+该脚本支持初始推理和修正轮次，可以处理多个数据集格式。
+"""
 import re
 import random
 from transformers import AutoTokenizer
@@ -9,14 +14,13 @@ from tqdm import tqdm
 import pandas as pd
 from utils import *
 
-# if __name__ == "__main__":
-parser = argparse.ArgumentParser()
-parser.add_argument('--input_path', default="", type=str)
-parser.add_argument('--model_path', default="/scratch/gpfs/yl7690/models/Translator_Qwen2.5-Coder-32B_numina_sonnet_130K_translator_Epoch2_LR1e-4", type=str)
-parser.add_argument('--output_dir', default="/scratch/gpfs/yl7690/projects/DeepSeek-Prover-V1.5/results/translator", type=str)
+parser = argparse.ArgumentParser(description='使用大语言模型生成Lean 4证明代码')
+parser.add_argument('--input_path', default="", type=str, help='输入数据集路径（JSONL格式）')
+parser.add_argument('--model_path', default="./model_8B/", type=str, help='模型路径')
+parser.add_argument('--output_dir', default="./results", type=str, help='输出目录')
 parser.add_argument('--split', default="none", type=str)
 parser.add_argument('--n', default=32, type=int)
-parser.add_argument("--max_model_len", default=131072, type=int)#16384
+parser.add_argument("--max_model_len", default=40960, type=int, help='最大模型长度（默认40960）')
 parser.add_argument('--inference_handler', type=str, choices=["dpskcot", "dpsknoncot", "kiminacot"])
 parser.add_argument('--trunck', default=1, type=int)
 parser.add_argument('--gpu', default=4, type=int)
@@ -132,10 +136,8 @@ for chunk_idx, current_chunk_input_items in enumerate(
             prompt_str, messages_for_this = handler.prover_inference(
                 item_data["lean4_code"], hf_tokenizer_for_chat_template
             )
-        num_tokens = len(hf_tokenizer_for_chat_template.tokenize(prompt_str))  
-        # num_cot_tokens = len(hf_tokenizer_for_chat_template.tokenize(messages_for_this[1]["content"]))
+        num_tokens = len(hf_tokenizer_for_chat_template.tokenize(prompt_str))
         records.append({
-            # "cot_token_nums": num_cot_tokens,
             "token_nums": num_tokens,
             "prompts_for_vllm": prompt_str,
             "messages_lists_for_current_prompts": messages_for_this,
@@ -143,11 +145,11 @@ for chunk_idx, current_chunk_input_items in enumerate(
         })
 
     df_med = pd.DataFrame(records)
-    max_length = args.max_model_len * 3 / 4 # fixed to be Qwen
-
+    # 过滤掉超过最大长度的提示（保留75%的模型长度用于生成）
+    max_length = args.max_model_len * 3 / 4
     to_process_df = df_med[df_med.token_nums <= max_length].reset_index(drop=True)
-    print(F"In total {len(df_med)}, selected {len(to_process_df)} whose length is smaller than {max_length}")
-    # import pdb; pdb.set_trace()
+    print(f"In total {len(df_med)}, selected {len(to_process_df)} whose length is smaller than {max_length}")
+    
     vllm_outputs = model.generate(to_process_df.prompts_for_vllm, sampling_params)
 
     for i in range(len(to_process_df)):
@@ -175,7 +177,7 @@ for chunk_idx, current_chunk_input_items in enumerate(
             "full_code": input_item["full_code"]
         })
     
-    print(F"Saving {chunk_idx}th trunk of round {args.correction_round} to {args.output_dir}")
+    print(f"Saving {chunk_idx}th trunk of round {args.correction_round} to {args.output_dir}")
     jsave(all_processed_records, output_file_path_records)
     jsave(all_inference_code_outputs, output_file_path_inference_codes)
 
