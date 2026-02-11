@@ -17,6 +17,9 @@ auto_check.log
 putnambench_run.log
 
 # Results - only exclude logs and temporary files
+# Exclude oversized run dirs (single files >100MB cannot push without Git LFS)
+results/run_20260205_085845/
+results/run_20260206_025202/
 results/run_*/inference.log
 results/run_*/compile.log
 results/run_*/summary.log
