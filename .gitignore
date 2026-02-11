@@ -16,15 +16,8 @@ progress_check.log
 auto_check.log
 putnambench_run.log
 
-# Results - only exclude logs and temporary files
-results/run_*/inference.log
-results/run_*/compile.log
-results/run_*/summary.log
-results/test_*/
-results/run_*/compile.pid
-results/run_*/inference.pid
-results/run_*/lean_files/
-results/run_*/summary_*/
+# Results - exclude all result runs (do not upload)
+results/
 
 # Temporary files
 *.bak
@@ -56,8 +49,3 @@ model_8B/
 !goedelv2.yml
 !lake-manifest.json
 !dataset/*.jsonl
-!results/run_*/*.json
-# Exclude very large result JSONs (would exceed GitHub 100MB limit)
-results/run_*/full_records.json
-results/run_*/to_inference_codes.json
-results/run_*/code_compilation_repl.json
