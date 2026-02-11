@@ -19,26 +19,45 @@ import numpy as np
 
 def handle(text):
     """
-    清理Lean代码：移除import、set_option和open语句，移除maxHeartbeats 0
-    
-    Args:
-        text: 原始Lean代码
-        
-    Returns:
-        清理后的代码
+    清理Lean代码：移除import、set_option和open语句，移除maxHeartbeats 0；
+    修复模型常见输出错误：
+    - 重复的 ":= by" -> 改为 "by"
+    - 缺失的 ":= by"（如 ": type \\n  by"）-> 改为 ": type := \\n  by"
     """
+    import re
     lines = text.split('\n')
     filtered_lines = []
     for line in lines:
         line_stripped = line.strip()
-        if (line_stripped.startswith('import') or 
-            line_stripped.startswith('set_option') or 
+        if (line_stripped.startswith('import') or
+            line_stripped.startswith('set_option') or
             line_stripped.startswith('open')):
             continue
         if 'maxHeartbeats' in line_stripped and '0' in line_stripped:
             continue
         filtered_lines.append(line)
-    return '\n'.join(filtered_lines).strip()
+    code = '\n'.join(filtered_lines).strip()
+    # 修复重复 ":= by"
+    if ':\n\n:= by' in code:
+        code = code.replace(':\n\n:= by', '\n  by')
+    if ':=\n\n:= by' in code:
+        code = code.replace(':=\n\n:= by', '\n  by')
+    # 修复缺失 ":= by"：定理声明 ": type" 后直接换行 "  by" 应为 ": type := \\n  by"
+    lines = code.split('\n')
+    result = []
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if stripped.startswith('by') and not stripped.startswith(':='):
+            prev_stripped = ''
+            for j in range(i - 1, -1, -1):
+                if lines[j].strip():
+                    prev_stripped = lines[j].rstrip()
+                    break
+            if prev_stripped and not prev_stripped.endswith(':='):
+                line = re.sub(r'^(\s*)by\b', r'\1:= by', line, count=1)
+        result.append(line)
+    code = '\n'.join(result)
+    return code
 
 
 parser = argparse.ArgumentParser(description='编译验证生成的Lean 4证明代码')
