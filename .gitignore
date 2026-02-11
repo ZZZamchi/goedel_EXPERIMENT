@@ -17,9 +17,6 @@ auto_check.log
 putnambench_run.log
 
 # Results - only exclude logs and temporary files
-# Exclude oversized run dirs (single files >100MB cannot push without Git LFS)
-results/run_20260205_085845/
-results/run_20260206_025202/
 results/run_*/inference.log
 results/run_*/compile.log
 results/run_*/summary.log
@@ -31,6 +28,7 @@ results/run_*/summary_*/
 
 # Temporary files
 *.bak
+*.bak2
 *.old
 *.tmp
 *~
@@ -59,3 +57,7 @@ model_8B/
 !lake-manifest.json
 !dataset/*.jsonl
 !results/run_*/*.json
+# Exclude very large result JSONs (would exceed GitHub 100MB limit)
+results/run_*/full_records.json
+results/run_*/to_inference_codes.json
+results/run_*/code_compilation_repl.json

@@ -1,2 +1,2 @@
-# results/run_*/*.json use LFS when git-lfs is installed (uncomment and run: git lfs install)
+# LFS disabled when git-lfs not installed; store results JSON as normal files
 # results/run_*/*.json filter=lfs diff=lfs merge=lfs -text

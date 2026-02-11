@@ -1,0 +1,3 @@
+usage: compile.py [-h] --input_path INPUT_PATH --output_path OUTPUT_PATH
+                  [--cpu CPU] [--timeout TIMEOUT]
+compile.py: error: unrecognized arguments: run.log
